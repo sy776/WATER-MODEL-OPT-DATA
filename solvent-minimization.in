@@ -1,0 +1,11 @@
+initial minimisation solvent
+ &cntrl
+	imin   = 1,
+	maxcyc = 10000,
+	ncyc   = 5000,
+	ntb    = 1,
+	ntr    = 1,
+	cut    = 15,
+        restraintmask = ':1-413',
+        restraint_wt = 500
+ /
