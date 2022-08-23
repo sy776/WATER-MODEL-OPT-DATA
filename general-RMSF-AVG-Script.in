@@ -1,0 +1,7 @@
+parm file.prmtop
+trajin autoimage.nc
+rms first
+average crdset MyAvg
+run
+rms ref MyAvg
+atomicfluct out rmsf-Avg.dat :1-413 byres
